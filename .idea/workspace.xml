@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d033923-607a-4f28-90bc-54ef0c977ca5" name="Default Changelist" comment="" />
+    <list default="true" id="7d033923-607a-4f28-90bc-54ef0c977ca5" name="Default Changelist" comment="删除编译文件">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -43,12 +49,14 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectId" id="1gymXkW4UEeF0Womrns39pYZN8W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -57,7 +65,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -111,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599095247988</updated>
       <workItem from="1599095249063" duration="1192000" />
-      <workItem from="1599096531660" duration="6919000" />
+      <workItem from="1599096531660" duration="7491000" />
     </task>
     <servers />
   </component>
@@ -123,6 +131,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="删除编译文件" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="624" y="305" key="#Web_Browsers" timestamp="1599125458767">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="624" y="305" key="#Web_Browsers/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599125458767" />
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599102325921">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -131,6 +143,19 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="577" y="438" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599100385094" />
+    <state x="334" y="87" key="CommitChangelistDialog2" timestamp="1599125657448">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="334" y="87" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599125657448" />
+    <state x="692" y="429" width="295" height="267" key="Github.ShareDialog" timestamp="1599125706615">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="692" y="429" key="Github.ShareDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599125445366" />
+    <state x="692" y="429" width="295" height="267" key="Github.ShareDialog/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599125706615" />
+    <state x="589" y="227" key="Github.UntrackedFilesDialog" timestamp="1599125376677">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="589" y="227" key="Github.UntrackedFilesDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599125376677" />
     <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1599103257240">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -163,6 +188,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="364" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599103257243" />
+    <state x="337" y="220" key="SettingsEditor" timestamp="1599125959862">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="337" y="220" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599125959862" />
     <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1599096487025">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
