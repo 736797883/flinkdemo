@@ -13,7 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d033923-607a-4f28-90bc-54ef0c977ca5" name="Default Changelist" comment="删除编译文件" />
+    <list default="true" id="7d033923-607a-4f28-90bc-54ef0c977ca5" name="Default Changelist" comment="删除编译文件">
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/EsWorkOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myDemo/JdbcDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myDemo/TableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +39,11 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
         <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
         <option name="pluginUpdatePolicy" value="UPDATE" />
-        <option name="userSettingsFile" value="/usr/local/Cellar/maven/3.6.3/libexec/conf/settings.xml" />
+        <option name="userSettingsFile" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -47,11 +55,11 @@
     <option name="enabledProfiles">
       <list>
         <option value="add-dependencies-for-IDEA" />
-        <option value="sonar" />
       </list>
     </option>
   </component>
   <component name="MavenRunner">
+    <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectId" id="1gymXkW4UEeF0Womrns39pYZN8W" />
@@ -71,14 +79,33 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="entity" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install:install-file -Dfile=/Users/zhangyunxiao/Downloads/maven-shade-plugin-3.1.1.jar -DgroupId=org.apache.maven.plugins -DartifactId=maven-shade-plugin -Dversion=3.1.1 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=/Users/zhangyunxiao/Downloads/flink-table-planner-blink_2.12-1.10.0.jar -DgroupId=org.apache.flink -DartifactId=flink-table-planner-blink_2.12 -Dversion=1.10.0 -Dpackaging=jar" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WikipediaAnalysis">
+    <configuration name="JdbcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myDemo.JdbcDemo" />
+      <module name="flinkdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WikipediaAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="myDemo.WikipediaAnalysis" />
@@ -93,22 +120,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WikipediaAnalysis" />
+        <item itemvalue="Application.JdbcDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +143,12 @@
       <updated>1599095247988</updated>
       <workItem from="1599095249063" duration="1192000" />
       <workItem from="1599096531660" duration="8400000" />
-      <workItem from="1599127021945" duration="3301000" />
+      <workItem from="1599127021945" duration="11133000" />
+      <workItem from="1599441095360" duration="4473000" />
+      <workItem from="1599447889474" duration="3218000" />
+      <workItem from="1599458521665" duration="1970000" />
+      <workItem from="1599460997473" duration="11895000" />
+      <workItem from="1599615043374" duration="217000" />
     </task>
     <task id="LOCAL-00001" summary="删除编译文件">
       <created>1599126140652</created>
@@ -158,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599188585961</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="删除编译文件">
+      <created>1599189363725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599189363725</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +216,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599102325921" />
+    <state x="653" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1599470854741">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="237" key="#com.intellij.ide.util.MemberChooser/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599470854741" />
     <state x="577" y="438" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1599100385094">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -206,49 +237,88 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="589" y="227" key="Github.UntrackedFilesDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599125376677" />
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1599126962780">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1599537877530">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599126962780" />
-    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1599126962779">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599537877530" />
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599470630931" />
+    <state width="1638" height="337" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599534008608" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1599537877527">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599126962779" />
-    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1599126962778">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599537877527" />
+    <state width="1638" height="364" key="GridCell.Tab.0.center/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599470630929" />
+    <state width="1638" height="337" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599534008606" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1599537877527">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599126962778" />
-    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1599126962779">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599537877527" />
+    <state width="1638" height="364" key="GridCell.Tab.0.left/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599470630929" />
+    <state width="1638" height="337" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599534008605" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1599537877529">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599126962779" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1599126962784">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599537877529" />
+    <state width="1638" height="364" key="GridCell.Tab.0.right/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599470630930" />
+    <state width="1638" height="337" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599534008607" />
+    <state width="1638" height="337" key="GridCell.Tab.1.bottom" timestamp="1599537877519">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599126962784" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1599126962782">
+    <state width="1638" height="337" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599537877519" />
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599470630857" />
+    <state width="1638" height="337" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599534008611" />
+    <state width="1638" height="337" key="GridCell.Tab.1.center" timestamp="1599537877517">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599126962782" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1599126962781">
+    <state width="1638" height="337" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599537877517" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599470630856" />
+    <state width="1638" height="337" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599534008609" />
+    <state width="1638" height="337" key="GridCell.Tab.1.left" timestamp="1599537877516">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599126962781" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1599126962783">
+    <state width="1638" height="337" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599537877516" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599470630855" />
+    <state width="1638" height="337" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599534008608" />
+    <state width="1638" height="337" key="GridCell.Tab.1.right" timestamp="1599537877518">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599126962783" />
-    <state x="337" y="220" key="SettingsEditor" timestamp="1599188564092">
+    <state width="1638" height="337" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599537877518" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right/1680.23.1920.1057/0.0.1680.1050@0.0.1680.1050" timestamp="1599470630857" />
+    <state width="1638" height="337" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1599534008610" />
+    <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1599459500370">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="337" y="220" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599188564092" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1599188588111">
+    <state x="378" y="187" key="Maven.ArtifactSearchDialog/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599459500370" />
+    <state x="337" y="220" key="SettingsEditor" timestamp="1599461118345">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599188588111" />
-    <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1599096487025">
+    <state x="337" y="220" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599461118345" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1599189366860">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="248" width="670" height="675" key="run.anything.popup/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599096487025" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599189366860" />
+    <state x="609" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599189813583">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="609" y="445" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599189813583" />
+    <state x="58" y="187" key="new project wizard" timestamp="1599461669761">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="58" y="187" key="new project wizard/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599461669761" />
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup" timestamp="1599450542449">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="248" width="670" height="675" key="run.anything.popup/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1599450542449" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-table-common/1.10.0/flink-table-common-1.10.0-sources.jar!/org/apache/flink/table/api/TableSchema.java</url>
+          <line>468</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
