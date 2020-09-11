@@ -1,23 +1,16 @@
 package myDemo;
 
 import entity.EsOrder;
-import entity.EsWorkOrder;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.typeinfo.BasicTypeInfo;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
-import org.apache.flink.api.java.aggregation.Aggregations;
 import org.apache.flink.api.java.io.jdbc.JDBCInputFormat;
-import org.apache.flink.api.java.operators.MapOperator;
 import org.apache.flink.api.java.typeutils.RowTypeInfo;
 import org.apache.flink.table.api.Table;
-import org.apache.flink.table.api.TableSchema;
 import org.apache.flink.table.api.java.BatchTableEnvironment;
-import org.apache.flink.table.functions.AggregateFunction;
-import org.apache.flink.table.planner.functions.aggfunctions.CountAggFunction;
 import org.apache.flink.types.Row;
 
-import static org.apache.flink.table.api.DataTypes.STRING;
 
 /**
  * @ClassName: JdbcDemo
@@ -71,4 +64,6 @@ public class JdbcDemo {
     }
     private static final String orderSql = "SELECT r.orderNum, r.problemId, r.belongOrgId\n" +
             "FROM t_receive r";
+
+
 }
